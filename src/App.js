@@ -1,17 +1,24 @@
-import './App.css';
-import dataset from './Data/treemap-data';
-import TreeMap from './Components/TreeMap';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+import React from 'react';
 
+//import components from './Data/component-list'
+//import dataset from './Data/treemap-data'
 
+//import HelloWorld from './Components/HelloWorld'
+//import TreeMap from './Components/TreeMap'
+import SVGSample from './Components/SVGSample'
 
 function App() {
   return (
     <div className="container">
-      <div className="App">
-          <TreeMap width={600} height={400} data={dataset} />
+      <div className="row">
+        <div className="App col-md-12">          
+            <SVGSample id="SVGSample" />
+        </div>
       </div>
-    </div>
-    
+    </div>    
   );
 }
 
