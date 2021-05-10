@@ -8,14 +8,15 @@ import React from 'react';
 
 //import HelloWorld from './Components/HelloWorld'
 //import TreeMap from './Components/TreeMap'
-import SVGSample from './Components/SVGSample'
+//import SVGSample from './Components/SVGSample'
+import BarChart from './Components/BarChart'
 
 function App() {
   return (
     <div className="container">
       <div className="row">
         <div className="App col-md-12">          
-            <SVGSample id="SVGSample" />
+            <BarChart id="BarChart" />
         </div>
       </div>
     </div>    
